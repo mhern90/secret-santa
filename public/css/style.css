@@ -1,0 +1,108 @@
+html, body {
+    font-size: 18px;
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.full-height {
+    height: 100vh;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #333;
+}
+
+h1 { font-size: 2em; color: #0DC70D;  padding-bottom: 20px; }
+h2 { font-size: 1.5em;  padding-bottom: 20px;}
+h3 { font-size: 1.2em;  padding-bottom: 20px; }
+p { font-size: 1em; padding-bottom: 20px; font }
+
+.logo-wrap {
+    text-align: center;
+}
+
+.clear-fix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clear-fix             { zoom: 1; } /* IE6 */
+*:first-child+html .clear-fix { zoom: 1; } /* IE7 */
+
+/* =========================
+    Launch Page Styles
+===========================*/
+
+.home-page {
+    text-align: center;
+}
+.home-img {
+    margin: 100px auto 30px;
+}
+
+.links {
+    padding-top: 30px;
+}
+
+.links > a,
+button {
+    color: #C70D0D;
+    border: 1px solid #C70D0D;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: 0.35s all;
+}
+
+.links > a:hover,
+button:hover {
+    background-color: #C70D0D;
+    color: #fff;
+}
+
+
+/* =========================
+    App Page Styles
+===========================*/
+
+
+
+#secret-santa-form {
+    background-color: #eee;
+    padding: 30px 15px;
+}
+
+#secret-santa-form span {
+    color: red;
+}
+#secret-santa-form label {
+    width: 33%;
+    float: left;
+}
+#secret-santa-form .create-new {
+    text-align: left;
+    margin: 20px 0;
+}
+#secret-santa-form .create-new a:hover {
+    color: #C70D0D;
+}
+
+#secret-santa-form .button-wrap {
+    text-align: right;
+}
